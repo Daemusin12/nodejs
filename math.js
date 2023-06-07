@@ -1,7 +1,11 @@
-exports.multiply = (a, b) => {
+const multiply = (a, b) => {
     return a * b;
 };
 
-exports.subtract = (a, b) => {
+const subtract = (a, b) => {
     return a - b;
+};
+
+module.exports = {
+    multiply, subtract,
 };
