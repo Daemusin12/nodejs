@@ -30,3 +30,7 @@ const { subtract, multiply } = math;
 console.log((subtract(2, 3)));
 console.log((multiply(2, 3)));
 
+//importing json
+const data = require("./data.json");
+
+console.log(data.address.street);
