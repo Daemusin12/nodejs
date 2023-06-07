@@ -21,3 +21,12 @@ console.log(batman.getName());
 
 const superman = new SuperHero("Superman");
 console.log(superman.getName());
+
+//Import Export Pattern
+const math = require("./math");
+
+const { subtract, multiply } = math;
+
+console.log((subtract(2, 3)));
+console.log((multiply(2, 3)));
+
