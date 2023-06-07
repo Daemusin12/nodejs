@@ -1,5 +1,9 @@
 //call the local module
-const add = require("./add"); 
+const add = require("./add");
+
+//IIFE or immediately invoked function expression 
+require("./batman");
+require("./superman")
 
 console.log("Hello! from index.js");
 const sum = add(1, 2);
